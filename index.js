@@ -20,7 +20,6 @@ const mergeSort = (array) => {
   let midpoint = array.length / 2;
   let firstSubarray = array.slice(0, midpoint);
   let secondSubArray = array.slice(midpoint, array.length);
-  let sorted;
 
   if (array.length < 2) {
     return array;
