@@ -13,5 +13,5 @@ const merge = (firstSubarray, secondSubArray) => {
     }
   }
 
-  return sortedArray
+  return sortedArray.concat(firstSubarray).concat(secondSubArray)
 }
