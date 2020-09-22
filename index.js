@@ -21,5 +21,5 @@ const mergeSort = (array) => {
   let firstSubarray = array.slice(0, midpoint);
   let secondSubArray = array.slice(midpoint, array.length);
 
-  array.length > 1 ? return merge(mergeSort(firstSubarray), mergeSort(secondSubArray)) : return array
+  return array.length > 1 ? merge(mergeSort(firstSubarray), mergeSort(secondSubArray)) : array
 }
