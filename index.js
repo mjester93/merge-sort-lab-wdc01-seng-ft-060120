@@ -21,5 +21,5 @@ const mergeSort = (array) => {
   let firstSubarray = array.slice(0, midpoint);
   let secondSubArray = array.slice(midpoint, array.length);
 
-  return merge(firstSubarray, secondSubArray)
+  return merge(mergeSort(firstSubarray), mergeSort(secondSubArray))
 }
