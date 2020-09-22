@@ -25,7 +25,7 @@ const mergeSort = (array) => {
   if (array.length < 2) {
     return array;
   } else {
-    sorted = merge(mergeSort(firstSubarray), mergeSort(secondSubArray))
+    return merge(mergeSort(firstSubarray), mergeSort(secondSubArray))
   }
 
   return sorted
