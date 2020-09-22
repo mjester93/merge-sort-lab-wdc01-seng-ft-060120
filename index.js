@@ -18,5 +18,5 @@ const merge = (firstSubarray, secondSubArray) => {
 
 const mergeSort = (array) => {
   let midpoint = array.length / 2;
-  return merge(array.slice(0, midpoint), array.slice(midpoint + 1, array.length))
+  return merge(array.slice(0, midpoint), array.slice(midpoint, array.length))
 }
