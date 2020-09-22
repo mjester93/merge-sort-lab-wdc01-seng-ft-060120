@@ -13,5 +13,5 @@ const merge = (firstSubarray, secondSubArray) => {
     }
   }
 
-  return sorted
+  return sortedArray
 }
