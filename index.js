@@ -3,7 +3,7 @@ const findMinAndRemoveSorted = (array) => {
 }
 
 const merge = (firstSubarray, secondSubArray) => {
-  let minOne = firstSubarray[0];
+  let minOne = findMinAndRemoveSorted(firstSubarray);
   let minTwo = firstSubarray[0];
 
 
