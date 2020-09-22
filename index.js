@@ -27,4 +27,6 @@ const mergeSort = (array) => {
   } else {
     sorted = merge(mergeSort(firstSubarray), mergeSort(secondSubArray);
   }
+
+  return sorted
 }
